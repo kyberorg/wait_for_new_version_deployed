@@ -21,7 +21,7 @@ RUN mvn clean package
 
 # Create a minimal docker container and copy the app into it
 #FROM alpine:latest
-FROM debian:buster-20210621-slim
+FROM debian:buster-20210721-slim
 WORKDIR /app
 
 ENV javax.net.ssl.trustStore /cacerts
